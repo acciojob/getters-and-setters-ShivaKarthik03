@@ -15,13 +15,13 @@ class Person {
 
 class Student extends Person {
 	study(name){
-		console.log(name,"is Studying")
+		console.log(name+" is studying")
 	}
 }
 
 class Teacher extends Person {
 	teach(name){
-		console.log(name,"is teaching")
+		console.log(name+" is teaching")
 	}
 }
 
